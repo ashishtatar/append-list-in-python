@@ -1,0 +1,8 @@
+l=[1,2,3,4]
+print("THE LIST IS",l)
+n=int(input("ENTER THE NUMBER OF ELEMENTS TO BE APPEND:"))
+for i in range(0,n):
+    s=int(input("ENTER THE VALUE:"))
+    l.append(s)
+print("AFTER APENDING,THE LIST IS:",l)
+input("PRESS ANY KEY")
